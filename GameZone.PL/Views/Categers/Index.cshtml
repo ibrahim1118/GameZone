@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Category>
+@{
+    ViewData["Title"] = "Category";
+}
+<a class="btn btn-secondary btn-lg mt-3" asp-action="Add">
+    <i class="bi bi-plus-circle-dotted"></i>
+    Add Game
+</a>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning mt-5">
+        <h4 class="alert-heading">No games!</h4>
+        <p class="mb-0">No games were added yet.</p>
+    </div>
+}
+else
+{
+    <div class="mt-5">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var Category in Model)
+                {
+                    <tr>
+                    <td class="text-light fs-2" >@Category.Name</td>
+                    <td>
+                        <a asp-action="Update" asp-route-id="@Category.Id" class="btn btn-primary">Update</a>
+                        <a onclick="return window.confirm('Are you sure?')" asp-action="Delete" asp-route-id="@Category.Id" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+                }
+               
+            </tbody>
+        </table>
+    </div>
+}
+
