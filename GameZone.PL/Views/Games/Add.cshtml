@@ -41,11 +41,7 @@
             <div class="form-group">
                 <label asp-for="Image" class="form-label mt-4"></label>
                 <input type="file" class="form-control" asp-for="Image"/> 
-                    @*data-rule-extension="@FileSettings.AllowedExtensions.Replace(".", string.Empty)"
-                       data-msg-extension="Not allowed extension"
-                       data-rule-filesize="@FileSettings.MaxFileSizeInBytes"
-                       data-msg-filesize="Maximum allowed size is @FileSettings.MaxFileSizeInMB MB">
-                <small class="form-text text-muted">Only @FileSettings.AllowedExtensions files are allowed with max size @(FileSettings.MaxFileSizeInMB)MB.</small>*@
+                    
                 <span asp-validation-for="Image" class="text-danger d-block"></span>
             </div>
             <button type="submit" class="btn btn-light text-black mt-4">Save</button>
@@ -58,11 +54,11 @@
 
 @section Scripts{
     <partial name="_ValidationScriptsPartial" />
-    <script>
+    @* <script>
         $(document).ready(function () {
     $('#Cover').on('change', function () {
         $('.cover-preview').attr('src', window.URL.createObjectURL(this.files[0])).removeClass('d-none');
     });
     });
-    </script>
+    </script> *@
 }

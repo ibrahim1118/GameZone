@@ -28,14 +28,14 @@ namespace GameZone.PL.Controllers
         {
             if (ModelState.IsValid)
             {
-                var usdr = new AppUser
+                var user = new AppUser
                 {
                     FName = registerVM.FName,
                     LName = registerVM.LName,
                     Email = registerVM.Email,
                     UserName = registerVM.Email.Split('@')[0]
                 }; 
-                var res =await  userManager.CreateAsync(usdr , registerVM.Password);
+                var res =await  userManager.CreateAsync(user , registerVM.Password);
                 if (res.Succeeded)
                     return RedirectToAction("LogIn");
                 foreach (var item in res.Errors)

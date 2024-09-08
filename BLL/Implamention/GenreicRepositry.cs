@@ -19,12 +19,12 @@ namespace BLL.Implamention
         {
             this.context = context;
         }
-        public IEnumerable<T> GetAll (ISpaceFaction<T> spac)
+        public IEnumerable<T> GetAll ()
         {
            var type = typeof(T).Name;
             if (type =="Game")
                 return context.Game.Include(g=>g.Category).Include(g=>g.Devices).ThenInclude(d=>d.Device).ToList() as IEnumerable<T>;
-            return CreatQuere<T>.Createquere(spac , context.Set<T>()).ToList();
+            return context.Set<T>().ToList();
         }
 
         public void Add(T item)
@@ -53,9 +53,6 @@ namespace BLL.Implamention
            context.SaveChanges();
         }
 
-        public IEnumerable<T> GetAll()
-        {
-            return context.Set<T>().ToList();
-        }
+       
     }
 }

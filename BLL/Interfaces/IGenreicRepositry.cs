@@ -8,7 +8,7 @@ namespace BLL.Interfaces
 {
     public interface IGenreicRepositry<T> where T : class
     {
-        public IEnumerable<T> GetAll(ISpaceFaction<T> space);
+ 
         public IEnumerable<T> GetAll();
 
         public T? GetById (int id);

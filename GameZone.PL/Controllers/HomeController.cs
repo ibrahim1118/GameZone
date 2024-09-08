@@ -22,12 +22,10 @@ namespace GameZone.PL.Controllers
 
         public IActionResult Index()
         {
-            var spac = new GameSpacefaction(); 
-            var Games = unitOfWork.GenreateRepositry<Game>().GetAll(spac);
+          
+            var Games = unitOfWork.GenreateRepositry<Game>().GetAll();
             return View(Games);
         }
-
-        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

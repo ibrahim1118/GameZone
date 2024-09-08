@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gNXfGfbl8zIANgs+QLPrUy9/Jaruv4jdPa+6raBbCs4lhZnNfRR/A3nVO6RQ6KJh02rRDjofyUz0hZBmkdIzPg==",
+  "dgSpecHash": "bP3TA3Vj/J62dKBs/9Nz8EEl7jBwNZEtN6eVIqJCyYOrKJYluxOAS9WP1FPiTE+uGZb7a/hpO52hwpOV3N3+zA==",
   "success": true,
-  "projectFilePath": "D:\\project\\GameZone.PL\\GameZone.PL\\GameZone.PL.csproj",
+  "projectFilePath": "D:\\project\\GameZone.PL\\GameZone\\GameZone.PL\\GameZone.PL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ibrarhim\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Ibrarhim\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -230,7 +230,11 @@
     "C:\\Users\\Ibrarhim\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Ibrarhim\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Ibrarhim\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Ibrarhim\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Ibrarhim\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Ibrarhim\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Ibrarhim\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Ibrarhim\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Ibrarhim\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

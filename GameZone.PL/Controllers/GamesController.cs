@@ -23,8 +23,7 @@ namespace GameZone.PL.Controllers
         }
         public IActionResult Index()
         {
-            var spac = new GameSpacefaction(); 
-            var Game = unitOfWork.GenreateRepositry<Game>().GetAll(spac);
+            var Game = unitOfWork.GenreateRepositry<Game>().GetAll();
             return View(Game);
         }
 

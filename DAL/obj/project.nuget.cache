@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bA05DLeSub/709kGhOG/322lCFyJ46GGruHSA28QlBIK9CEyPRdkws1quYx8gXvQ+/q44QyZ9bRmokCurrMvoA==",
+  "dgSpecHash": "tVJUNFsLSAPze0xYsd5j0AQraK1M+KdrSVHQMwwc14M4hGtj4tK9UIdAA5skct74JECoGIpy3OHx3bLFJhKVgA==",
   "success": true,
-  "projectFilePath": "D:\\project\\GameZone.PL\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\project\\GameZone.PL\\GameZone\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ibrarhim\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Ibrarhim\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -68,7 +68,10 @@
     "C:\\Users\\Ibrarhim\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Ibrarhim\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\Ibrarhim\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Ibrarhim\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\Ibrarhim\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Ibrarhim\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Ibrarhim\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Ibrarhim\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }
